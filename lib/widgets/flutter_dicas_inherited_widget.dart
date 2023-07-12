@@ -8,7 +8,7 @@ class FlutterInheritedWidget extends InheritedWidget{
 
   static FlutterInheritedWidget? of(BuildContext context){ // Localiza no widget tree onde está a instância criada do FlutterInheritedWidget (Localiza através do context)
     return context
-    .dependOnInheritedWidgetOfExactType<FlutterInheritedWidget>(); // Essa função o inherioted widget através do método "of"
+    .dependOnInheritedWidgetOfExactType<FlutterInheritedWidget>(); // Essa função o inherited widget através do método "of"
 
   }
   
