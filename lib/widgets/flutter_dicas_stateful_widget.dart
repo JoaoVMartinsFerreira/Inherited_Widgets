@@ -36,7 +36,7 @@ class _FlutterDicasStatefulWidgetState extends State<FlutterDicasStatefulWidget>
   }
   @override
   Widget build(BuildContext context) { // Implementa a contrução do statefull widget
-  final dica = FlutterInheritedWidget.of(context)!.dica; // Quando o método é esttático, não se devev insntanciá-lo
+  final dica = FlutterInheritedWidget.of(context)!.dica; // Quando o método é estático, não se deve insntanciá-lo
     return Scaffold(
       appBar: AppBar(
         title: Text('$dica: Stateful Widget'),
