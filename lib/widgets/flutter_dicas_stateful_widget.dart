@@ -22,7 +22,7 @@ class _FlutterDicasStatefulWidgetState extends State<FlutterDicasStatefulWidget>
   }
 
   @override
-  void dispose(){ // Serve para enecerrar o cliclo de vida do widget
+  void dispose(){ // Serve para enecerrar o ciclo de vida do widget
   }
   void _incrementarContador(){
     setState(() { // setState reconstroi e atualiza a tela
